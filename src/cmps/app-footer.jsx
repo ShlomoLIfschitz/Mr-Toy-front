@@ -47,7 +47,7 @@ class _AppFooter extends Component {
 
         return (
             <footer>
-                <h1>YA WARADIIIIIKKKAAAAAAAA</h1>
+              
                 {/* <h5>
                     Currently { } cars in the shop
                 </h5> */}
