@@ -44,6 +44,9 @@ class _ToyApp extends Component {
         if (navOpen) this.setState({ navOpen: '' })
         if (!navOpen) this.setState({ navOpen: 'nav-open' })
     }
+    onGetMsg=()=>{
+        console.log('Hello Noya & Erez');
+    }
 
 
 
@@ -65,6 +68,7 @@ class _ToyApp extends Component {
                     toys={toys}
                     onRemoveToy={this.onRemoveToy}
                 />
+                <button onClick={()=>this.onGetMsg}>Hello</button>
             </section>
         )
     }
