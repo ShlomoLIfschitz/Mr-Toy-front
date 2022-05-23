@@ -13,7 +13,7 @@ export const AppHeader = () => {
     }
 
     const onGoBack = () => {
-        history.push('/toy')
+        history.push('/')
     }
 
     return (
