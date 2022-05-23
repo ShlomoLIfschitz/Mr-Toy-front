@@ -1,0 +1,29 @@
+.toy-details {
+
+    border-top: 0.5px solid rgba(29, 28, 28, 0.884);
+    border-bottom: 0.5px solid rgba(29, 28, 28, 0.884);
+    margin-block-start: 5%;
+    background-color: rgb(235, 243, 252);
+    color: rgb(33, 158, 231);
+
+    button {
+        margin: 2px;
+        border-radius: 5px;
+        border: 0.5px solid gray;
+        cursor: pointer;
+        padding: 10px;
+
+        &:hover {
+            background-color: darken($clr8, 10%);
+        }
+    }
+
+    h2 {
+        font-size: 45px;
+    }
+
+    h4 {
+        font-size: 20px;
+    }
+
+}

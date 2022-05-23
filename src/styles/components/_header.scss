@@ -1,0 +1,31 @@
+header {
+    background-color: $clr8 ;
+    display: flex;
+    justify-content: space-between;
+
+    a {
+        text-decoration: none;
+        padding: 10px;
+        font-size: 20px;
+        color: $clr3;
+
+        &:hover {
+            color: aqua;
+        }
+    }
+
+    nav {
+        margin-inline-end: 8%;
+        margin-block: auto;
+        margin-inline-end: 120px;
+
+    }
+
+    .user-info {
+        margin-inline-end: 5%;
+    }
+
+    h1 {
+        margin: 0;
+    }
+}

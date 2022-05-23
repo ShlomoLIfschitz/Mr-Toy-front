@@ -1,0 +1,39 @@
+.toy-edit {
+
+    button {
+        margin: 2px;
+        border-radius: 5px;
+        border: 0.5px solid gray;
+        cursor: pointer;
+        padding: 10px;
+
+        &:hover {
+            background-color: darken($clr8, 10%);
+        }
+    }
+
+    .btn-save {
+        background-color: $clr8;
+    }
+
+    h3 {
+        font-size: 40px;
+    }
+
+    input {
+        border: 2px solid rgb(114, 187, 236);
+        border-radius: 10px;
+        -webkit-box-shadow:
+            inset 0 0 8px rgba(0, 0, 0, 0.1),
+            0 0 16px rgba(0, 0, 0, 0.1);
+        -moz-box-shadow:
+            inset 0 0 8px rgba(0, 0, 0, 0.1),
+            0 0 16px rgba(0, 0, 0, 0.1);
+        box-shadow:
+            inset 0 0 8px rgba(0, 0, 0, 0.1),
+            0 0 16px rgba(0, 0, 0, 0.1);
+        padding: 15px;
+        background: rgba(255, 255, 255, 0.5);
+        margin: 0 0 10px 0;
+    }
+}
