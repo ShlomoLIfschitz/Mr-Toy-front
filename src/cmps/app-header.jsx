@@ -18,7 +18,7 @@ export const AppHeader = () => {
 
     return (
         <header >
-            <h1>Mister Toy 🎯</h1>
+            <h1>Mister Toy 🎯 hello Noya here</h1>
             <UserMsg />
             <nav>
                 <NavLink to="/">Home |</NavLink>
